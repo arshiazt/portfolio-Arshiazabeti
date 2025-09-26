@@ -1,0 +1,296 @@
+#index{
+    background-color: navajowhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: saddlebrown;
+    font-size: x-large;}
+#contact{
+    background-color: rgb(167, 25, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: rgb(151, 13, 146);
+    font-size: x-large;
+}
+#project{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: rgb(26, 122, 146);
+    font-size: x-large;
+}
+#skill{
+    background-color: rgb(18, 160, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color:rgb(25, 2, 129);
+    font-size: x-large;;
+}
+#home{
+    background-color: rgb(177, 176, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: rgb(94, 92, 92);
+    font-size: x-large;}
+
+#about{
+    background-color: rgb(0, 255, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: rgb(61, 139, 19);
+    font-size: 20px;
+}
+.container{
+    
+    background-color: rgba(255, 248, 220, 0.644);
+    border-radius: 30px;
+    padding: 30px;
+    width:100%;
+    max-width: 600px;
+    text-align:left;
+    height: 100vh;
+}
+
+.pyphoto{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(26, 122, 146);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+}
+.pyphoto:hover{
+    background-color: rgb(73, 197, 222);
+}
+.leftproject {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(26, 122, 146);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+    font-size: large;
+}
+.leftproject:hover{
+    background-color: rgb(73, 197, 222);
+}
+.leftindex {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: peru;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+    font-size: large;}
+
+#photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;    
+}
+.lefthome {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: dimgray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+    font-size: large;}
+#pabout{
+    line-height: 2;
+}
+.leftabout {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(7, 147, 7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+    font-size: x-large;
+}
+
+.leftskill{
+     display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(7, 23, 147);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+    font-size: large;
+}
+.leftskill:hover{
+    background-color: rgb(14, 88, 207);
+    text-align: center;
+}
+.leftindex:hover{
+    background-color: coral;
+}
+.lefthome:hover{
+    background-color: rgb(173, 157, 173);
+    text-align: center;
+}
+.leftabout:hover{
+    background-color: rgb(124, 205, 3);
+}
+#button {
+    width: 50px;
+    height: 20px;
+}
+.leftcontact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(163, 13, 171);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+    font-size: large;
+}
+.leftcontact:hover{
+    background-color: rgb(232, 13, 239);
+}
+.pyphoto:hover{
+    background-color: rgb(73, 197, 222);
+}
+.leftproject {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(26, 122, 146);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition:background-color 0.3s;
+    font-size: large;
+}
+.leftproject:hover{
+    background-color: rgb(73, 197, 222);
+}
+
+@media (max-width :700px){
+    #containerindex{
+        font-size: medium;  
+    }
+    .leftindex{
+        font-size: medium;
+    }
+}
+@media (max-width :400px){
+    #containerindex{
+        font-size:small;
+    }
+}
+@media (max-width :700px){
+    #containerhome{
+        font-size: medium;  
+    }
+    .lefthome{
+        font-size: medium;
+    }
+}
+@media (max-width :400px){
+    #containerhome{
+        font-size:small;
+    }
+    .lefthome{
+        font-size: small;
+    }
+}
+@media (max-width :750px){
+    #containerabout{
+        font-size: medium;  
+    }
+    .leftabout{
+        font-size: medium;
+    }
+}
+@media (max-width :400px){
+    #containerabout{
+        font-size:small;
+    }
+    .leftabout{
+        font-size: small;
+    }
+}
+@media (max-width :750px){
+    #containerskill{
+        font-size: medium;  
+    }
+    .leftskill{
+        font-size: medium;
+    }
+}
+@media (max-width :400px){
+    #containerskill{
+        font-size:small;
+    }
+    .leftskill{
+        font-size: small;
+    }
+}
+@media (max-width :750px){
+    #containerproject{
+        font-size: medium;  
+    }
+    .leftproject{
+        font-size: medium;
+    }
+}
+@media (max-width :500px){
+    #containerproject{
+        font-size:small;
+    }
+    .leftproject{
+        font-size: small;
+    }
+}
+@media (max-width :750px){
+    #containercontact{
+        font-size: medium;  
+    }
+    .leftcontact{
+        font-size: medium;
+    }
+}
+@media (max-width :500px){
+    #containercontact{
+        font-size:small;
+    }
+    .leftcontact{
+        font-size: small;
+    }
+    
+}
